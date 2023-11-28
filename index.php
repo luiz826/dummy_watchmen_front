@@ -1,33 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Site Watchmen</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Watchmen Site</title>
 </head>
 <body>
+    <header>
+        <h1>Watchmen Fan Site</h1>
+        <img src="images/watchmen_logo.jpg" alt="Watchmen Logo">
+    </header>
 
-<?php include 'includes/header.php'; ?>
+    <section class="characters">
+        <h2>Main Characters</h2>
+        <div class="comedian">
+            <img src="images/Comedian.jpg" alt="Comedian">
+            <p>Character 1 description...</p>
+        </div>
+        <div class="rorschach">
+            <img src="images/Rorschach.jpg" alt="Rorschach">
+            <p>Character 2 description...</p>
+        </div>
+        <!-- Add more characters as needed -->
+    </section>
 
-<div class="content">
-    <h1>Bem-vindo ao Site Watchmen</h1>
-    <p>Explore o mundo de Watchmen!</p>
-
-    <h2>Sobre Watchmen</h2>
-    <p>Watchmen é uma série de quadrinhos inovadora criada pelo escritor Alan Moore, pelo desenhista Dave Gibbons e pelo colorista John Higgins. Foi originalmente publicada pela DC Comics entre 1986 e 1987.</p>
-    
-    <h2>Personagens</h2>
-    <p>Watchmen apresenta um elenco diversificado de personagens complexos, incluindo o vigilante moralmente ambíguo Rorschach, o poderoso Dr. Manhattan, a conflituosa Silk Spectre, o brilhante mas falho Ozymandias, entre outros.</p>
-
-    <h2>Legado</h2>
-    <p>A série é renomada por seus temas maduros, narrativa intricada e desconstrução do gênero de super-heróis. Teve um impacto significativo na indústria de quadrinhos e na cultura popular, influenciando inúmeros escritores, artistas e cineastas.</p>
-
-    <h2>Adaptações</h2>
-    <p>Watchmen foi adaptado em várias formas, incluindo uma graphic novel aclamada pela crítica, um filme dirigido por Zack Snyder e uma série de televisão da HBO.</p>
-
-    <h2>Explore Mais</h2>
-    <p>Explore o mundo de Watchmen através das histórias em quadrinhos, romances e adaptações para descobrir as narrativas complexas e temas instigantes.</p>
-</div>
-
+    <footer>
+        <p>&copy; <?php echo date("Y"); ?> Watchmen Fan Site</p>
+    </footer>
 </body>
 </html>
